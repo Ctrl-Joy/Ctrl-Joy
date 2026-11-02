@@ -105,18 +105,14 @@ const shreejoy = {
 
 ## 📊 GitHub Analytics
 
-<!-- Generated daily by .github/workflows/metrics.yml and stored in this repo, so they never break. -->
+<!-- Built every 6 hours by .github/workflows/stats.yml and stored on the `stats` branch, so they never depend on outside services. -->
 <p align="center">
-  <img src="./metrics-overview.svg" alt="GitHub overview" width="49%" />
-  <img src="./metrics-languages.svg" alt="Most used languages" width="49%" />
+  <img src="https://raw.githubusercontent.com/ctrl-joy/ctrl-joy/stats/stats.svg" alt="GitHub stats" width="49%" />
+  <img src="https://raw.githubusercontent.com/ctrl-joy/ctrl-joy/stats/languages.svg" alt="Most used languages" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=ctrl-joy&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=1F6FEB&currStreakLabel=58A6FF" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="./metrics-achievements.svg" alt="GitHub achievements" />
+  <img src="https://raw.githubusercontent.com/ctrl-joy/ctrl-joy/stats/streak.svg" alt="GitHub streak" width="80%" />
 </p>
 
 ---
