@@ -20,18 +20,25 @@
 
 ## 🧑‍💻 About Me
 
-```js
-const shreejoy = {
-  handle:      "ctrl-joy",
-  role:        "Full-Stack Developer",
-  stack:       ["React", "Next.js", "Node.js", "Express", "TypeScript"],
-  data:        ["PostgreSQL", "MongoDB", "Redis"],
-  shipping:    ["Docker", "Kubernetes", "AWS", "GCP", "Azure"],
-  currently:   "Building and shipping side projects 🚀",
-  askMeAbout:  ["web dev", "backend APIs", "DevOps"],
-  reachMe:     "bikalpshreejoy@gmail.com",
-};
-```
+<table>
+  <tr>
+    <td width="60%" valign="top">
+
+- 👨‍💻 **Full-stack developer** who builds web apps end to end, from UI to API to deployment
+- 🔭 Currently building **[nav](https://github.com/ctrl-joy)** with TypeScript
+- ⚛️ Frontend with **React**, **Next.js** and **Tailwind CSS**
+- 🛠️ Backend with **Node.js**, **Express**, **PostgreSQL**, **MongoDB** and **Redis**
+- ☁️ Shipping with **Docker**, **Kubernetes** and **AWS / GCP / Azure**
+- 🌱 Always learning and exploring new tech
+- 💬 Ask me about **web dev**, **backend APIs** and **DevOps**
+- 📫 Reach me at **[bikalpshreejoy@gmail.com](mailto:bikalpshreejoy@gmail.com)**
+
+    </td>
+    <td width="40%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/SP-XD/SP-XD/refs/heads/main/images/Developer.gif" alt="Coding" width="220" />
+    </td>
+  </tr>
+</table>
 
 ---
 

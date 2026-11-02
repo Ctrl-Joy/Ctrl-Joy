@@ -22,6 +22,10 @@ FONT = "'Segoe UI', Ubuntu, -apple-system, sans-serif"
 
 API = "https://api.github.com/graphql"
 
+# Markup/config/shell languages skew the chart, so they are left out.
+IGNORED_LANGS = {"HTML", "CSS", "SCSS", "Shell", "PowerShell", "Dockerfile",
+                 "Makefile", "Batchfile", "Procfile"}
+
 
 # ── Data fetching ───────────────────────────────────────────────────────────
 def gql(query, variables):
@@ -83,6 +87,8 @@ def fetch(login):
     for repo in repos:
         for e in repo["languages"]["edges"]:
             name = e["node"]["name"]
+            if name in IGNORED_LANGS:
+                continue
             entry = langs.setdefault(name, {"size": 0, "color": e["node"]["color"] or MUTED})
             entry["size"] += e["size"]
 
@@ -181,7 +187,7 @@ def stats_svg(s):
         f'<circle cx="355" cy="125" r="48" fill="none" stroke="{BORDER}" stroke-width="7"/>'
         f'<circle cx="355" cy="125" r="48" fill="none" stroke="url(#g)" stroke-width="7" '
         f'stroke-linecap="round" stroke-dasharray="301" stroke-dashoffset="0" transform="rotate(-90 355 125)"/>'
-        f'<text x="355" y="128" text-anchor="middle" class="big">{fmt(s["commits"] + s["prs"] + s["issues"])}</text>'
+        f'<text x="355" y="128" text-anchor="middle" class="big">{fmt(sum(s["days"].values()))}</text>'
         f'<text x="355" y="150" text-anchor="middle" class="m" style="font-size:11px">contributions</text>'
     )
     return card(445, 245, "GitHub Stats", body)
