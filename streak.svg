@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="215" viewBox="0 0 600 215">
+<style>
+  .t { font: 600 18px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #58a6ff; }
+  .l { font: 400 14px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #c9d1d9; }
+  .v { font: 700 14px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #c9d1d9; }
+  .m { font: 400 12px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #8b949e; }
+  .big { font: 700 28px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #c9d1d9; }
+  .fade { opacity: 0; animation: f .6s ease-in-out forwards; }
+  @keyframes f { to { opacity: 1; } }
+</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="599" height="214" rx="10" fill="#0d1117" stroke="#21262d"/>
+<g class="fade" style="animation-delay:0ms"><text x="100.0" y="115" text-anchor="middle" class="big">354</text><text x="100.0" y="172" text-anchor="middle" class="v" fill="#c9d1d9">Total Contributions</text><text x="100.0" y="192" text-anchor="middle" class="m">since Apr 2021</text></g>
+<circle cx="300.0" cy="105" r="42" fill="none" stroke="url(#g)" stroke-width="5"/><g class="fade" style="animation-delay:150ms"><text x="300.0" y="115" text-anchor="middle" class="big">0</text><text x="300.0" y="172" text-anchor="middle" class="v" fill="#58a6ff">Current Streak</text><text x="300.0" y="192" text-anchor="middle" class="m">days in a row</text></g>
+<line x1="200" y1="65" x2="200" y2="190" stroke="#21262d"/><g class="fade" style="animation-delay:300ms"><text x="500.0" y="115" text-anchor="middle" class="big">4</text><text x="500.0" y="172" text-anchor="middle" class="v" fill="#c9d1d9">Longest Streak</text><text x="500.0" y="192" text-anchor="middle" class="m">days</text></g>
+<line x1="400" y1="65" x2="400" y2="190" stroke="#21262d"/>
+</svg>
