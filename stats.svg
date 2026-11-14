@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="445" height="245" viewBox="0 0 445 245">
+<style>
+  .t { font: 600 18px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #58a6ff; }
+  .l { font: 400 14px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #c9d1d9; }
+  .v { font: 700 14px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #c9d1d9; }
+  .m { font: 400 12px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #8b949e; }
+  .big { font: 700 28px 'Segoe UI', Ubuntu, -apple-system, sans-serif; fill: #c9d1d9; }
+  .fade { opacity: 0; animation: f .6s ease-in-out forwards; }
+  @keyframes f { to { opacity: 1; } }
+</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="444" height="244" rx="10" fill="#0d1117" stroke="#21262d"/>
+<text x="25" y="38" class="t">GitHub Stats</text>
+<g class="fade" style="animation-delay:0ms"><rect x="25" y="65" width="10" height="10" rx="3" fill="url(#g)"/><text x="45" y="75" class="l">Total Stars</text><text x="225" y="75" class="v">3</text></g>
+<g class="fade" style="animation-delay:120ms"><rect x="25" y="92" width="10" height="10" rx="3" fill="url(#g)"/><text x="45" y="102" class="l">Total Commits</text><text x="225" y="102" class="v">530</text></g>
+<g class="fade" style="animation-delay:240ms"><rect x="25" y="119" width="10" height="10" rx="3" fill="url(#g)"/><text x="45" y="129" class="l">Pull Requests</text><text x="225" y="129" class="v">4</text></g>
+<g class="fade" style="animation-delay:360ms"><rect x="25" y="146" width="10" height="10" rx="3" fill="url(#g)"/><text x="45" y="156" class="l">Issues</text><text x="225" y="156" class="v">0</text></g>
+<g class="fade" style="animation-delay:480ms"><rect x="25" y="173" width="10" height="10" rx="3" fill="url(#g)"/><text x="45" y="183" class="l">Public Repos</text><text x="225" y="183" class="v">18</text></g>
+<g class="fade" style="animation-delay:600ms"><rect x="25" y="200" width="10" height="10" rx="3" fill="url(#g)"/><text x="45" y="210" class="l">Followers</text><text x="225" y="210" class="v">1</text></g>
+<circle cx="355" cy="125" r="48" fill="none" stroke="#21262d" stroke-width="7"/><circle cx="355" cy="125" r="48" fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round" stroke-dasharray="301" stroke-dashoffset="0" transform="rotate(-90 355 125)"/><text x="355" y="128" text-anchor="middle" class="big">553</text><text x="355" y="150" text-anchor="middle" class="m" style="font-size:11px">contributions</text>
+</svg>
